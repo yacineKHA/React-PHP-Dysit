@@ -1,0 +1,27 @@
+
+.divStyle{
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    color: white;
+}
+
+
+.divStyle>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #151319;
+}
+
+
+.divStyle>div:hover{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+
+}

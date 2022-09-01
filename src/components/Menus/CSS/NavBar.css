@@ -1,0 +1,93 @@
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    z-index: 100;
+    top: 0;
+    height: 80px;
+    margin-bottom: 0;
+    transition: 2s ease-in-out;
+}
+/*-------- for scroll change color ------*/
+.header-bg{
+    transition: 2s ease-in-out;
+    background-color: rgba(27, 113, 211, 0.34);
+}
+
+header>section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.div-header>p{
+    font-size: 0.9rem;
+    padding: 0;
+    left: 0;
+    margin: 0;
+}
+
+.rightIconUser{
+    right: 0;
+    padding: 0;
+}
+
+.rightNavbar{
+    right: 0;
+}
+
+@media (max-width: 700px) {
+    .rightNavbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linkNav{
+        margin-top: 12px;
+    }
+}
+
+header div>h4>a{
+    font-size: 40px;
+}
+
+.avatarProfile:hover{
+    cursor: pointer;
+}
+
+.connectButton{
+    border-radius: 40px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+
+/*------ button login and register navbar ------*/
+.linkNav{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.linkNav1{
+    margin-right: 20px;
+}

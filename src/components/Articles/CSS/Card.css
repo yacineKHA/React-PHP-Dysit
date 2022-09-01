@@ -1,0 +1,10 @@
+.cardStyle{
+    border-radius: 40px !important;
+    background-color: black !important;
+    transition: transform 0.6s ease-in-out !important;
+    max-width: 750px;
+}
+
+.cardStyle:hover{
+   transform: translateY(-6px) !important;
+}

@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: "Akira";
+    src: url("/src/font/Fonts-Akira-Expanded.ttf");
+}
+
+@font-face {
+    font-family: "Akira-outline";
+    src: url("/src/font/akira-expanded-outline.ttf");
+}
+
+@font-face {
+    font-family: "Akira-outline";
+    src: url("/src/font/akira-expanded-outline.ttf");
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #525252;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
